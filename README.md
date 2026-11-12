@@ -8,7 +8,7 @@ The server provides 27 statistical and arithmetic tools, including descriptive s
 
 ## Dependency
 
-The shared MCP implementation is provided by [mcpxx](https://github.com/pooriayousefi/mcpxx), pinned as a Git submodule at commit `8d3e971072c263dd5132c5b48e44c15926d21190` under `external/mcpxx`.
+The shared MCP implementation is provided by [mcpxx](https://github.com/pooriayousefi/mcpxx), pinned as a Git submodule at commit `c7753ec6b15eb15b6ecdfed82b93ace745ba0c6b` under `external/mcpxx`.
 
 ## Clone and build
 

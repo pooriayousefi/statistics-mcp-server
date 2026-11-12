@@ -33,9 +33,9 @@
 //      INTERNAL_ERROR; domain violations return INVALID_PARAMS.
 //
 //  Build:
-//    clang++ -std=c++20 -O3 -pthread -I include src/statistics_mcp_tool_server.cpp -o bin/statistics_mcp_tool_server
+//    clang++ -std=c++20 -O3 -pthread -I external/mcpxx/include src/statistics_mcp_tool_server.cpp -o bin/statistics_mcp_tool_server
 //    (Windows / MSYS2 MinGW: append -lws2_32)
-//    g++ -std=c++20 -O3 -pthread -I include src/statistics_mcp_tool_server.cpp -o bin/statistics_mcp_tool_server
+//    g++ -std=c++20 -O3 -pthread -I external/mcpxx/include src/statistics_mcp_tool_server.cpp -o bin/statistics_mcp_tool_server
 //
 //  Usage:
 //    ./bin/statistics_mcp_tool_server                       # stdio (default; run from project root)
